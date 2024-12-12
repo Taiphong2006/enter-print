@@ -1,0 +1,343 @@
+; This is the Calva REPL Window.
+; It's just a file, really, with some special treatment from Calva.
+; Use it as a REPL input prompt if you like. (When the REPL is connected.)
+; TIPS: The keyboard shortcut `ctrl+alt+o r` shows and focuses this window
+; Please see https://calva.io/repl-window/ for more info.
+; Happy coding! ♥️
+
+; TIPS: As with any Clojure file when the REPL is connected:
+; - `alt+enter` evaluates the current top level form.
+; - `ctrl+enter` evaluates the current form.
+; Special for this file:
+; - `alt+up` and `alt+down` traverse up and down the REPL command history
+;    when the cursor is after the last contents at the prompt
+; 
+; See also the Calva Inspector: https://calva.io/inspector/
+
+PLEASE NOTE
+We will update the default location of this file.
+The new default location will be
+  "<projectRootPath>/.calva/repl.calva-repl"
+For now the legacy path is used by default.
+To give yourself a smooth transition, you can opt in
+to the change, by configuring this setting as false:
+  "calva.useLegacyReplWindowPath"
+and then add "**/.calva/repl.calva-repl" to your ".gitignore" file.
+
+
+This file is configured as the output destination for all REPL output.
+You can configure this with the setting:
+  "calva.outputDestinations"
+
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /Users/taiphongnguyen/enter-print; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless)
+; Connecting using "ClojureScript nREPL Server" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Connecting ...
+; Reading port file: file:///Users/taiphongnguyen/enter-print/.nrepl-port ...
+; Using host:port localhost:63797 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉enter-print.core꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: ClojureScript nREPL Server...
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+; Execution error (FileNotFoundException) at user/eval8140 (form-init17036440641124941961.clj:52).
+; Could not locate cljs/repl__init.class, cljs/repl.clj or cljs/repl.cljc on classpath.
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+; Connecting using "ClojureScript nREPL Server" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Connecting ...
+; Reading port file: file:///Users/taiphongnguyen/enter-print/.nrepl-port ...
+; Using host:port localhost:63797 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉enter-print.core꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: ClojureScript nREPL Server...
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+; Execution error (FileNotFoundException) at user/eval8565 (form-init17036440641124941961.clj:77).
+; Could not locate cljs/repl__init.class, cljs/repl.clj or cljs/repl.cljc on classpath.
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+#'common-prefix.core/foo
+clj꞉common-prefix.core꞉> 
+6
+clj꞉common-prefix.core꞉> 
+#'enter-print.prefix/prefix
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/prefix
+clj꞉enter-print.prefix꞉> 
+nil
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/test-longest-prefix
+clj꞉enter-print.prefix꞉> 
+; 
+; Testing enter-print.prefix
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:7)
+; Common prefix exists
+; expected: (= "fl" (longest-prefix ["flower" "flow" "flight"]))
+;   actual: (not (= "fl" ""))
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:8)
+; Common prefix exists
+; expected: (= "test" (longest-prefix ["testcase" "testdata" "testing"]))
+;   actual: (not (= "test" ""))
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:15)
+; Edge cases
+; expected: (= "a" (longest-prefix ["a"]))
+;   actual: (not (= "a" ""))
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:16)
+; Edge cases
+; expected: (= "hello" (longest-prefix ["hello" "hello" "hello"]))
+;   actual: (not (= "hello" ""))
+; 
+; Ran 1 tests containing 8 assertions.
+; 4 failures, 0 errors.
+{:test 1, :pass 4, :fail 4, :error 0, :type :summary}
+clj꞉enter-print.prefix꞉> 
+; Syntax error compiling at (src/enter_print/prefix.clj:5:1).
+; Unable to resolve symbol: a in this context
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+nil
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+\a
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/test-longest-prefix
+clj꞉enter-print.prefix꞉> 
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:7)
+; Common prefix exists
+; expected: (= "fl" (longest-prefix ["flower" "flow" "flight"]))
+;   actual: (not (= "fl" ""))
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:8)
+; Common prefix exists
+; expected: (= "test" (longest-prefix ["testcase" "testdata" "testing"]))
+;   actual: (not (= "test" ""))
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:15)
+; Edge cases
+; expected: (= "a" (longest-prefix ["a"]))
+;   actual: (not (= "a" ""))
+; 
+; FAIL in (test-longest-prefix) (form-init17036440641124941961.clj:16)
+; Edge cases
+; expected: (= "hello" (longest-prefix ["hello" "hello" "hello"]))
+;   actual: (not (= "hello" ""))
+nil
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-test2
+clj꞉enter-print.prefix꞉> 
+; Execution error (ArityException) at enter-print.prefix/eval10726 (form-init17036440641124941961.clj:11).
+; Wrong number of args (1) passed to: enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-test2
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-test2
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-test2
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+\a
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+"(first (s 0))"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+\a
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix2
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+true
+clj꞉enter-print.prefix꞉> 
+nil
+clj꞉enter-print.prefix꞉> 
+; Syntax error compiling at (src/enter_print/prefix.clj:15:1).
+; No such namespace: str
+clj꞉enter-print.prefix꞉> 
+; Syntax error compiling at (src/enter_print/prefix.clj:16:1).
+; No such namespace: str
+clj꞉enter-print.prefix꞉> 
+; Syntax error compiling at (src/enter_print/prefix.clj:18:8).
+; No such namespace: str
+clj꞉enter-print.prefix꞉> 
+"abcd"
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/eval10790 (form-init17036440641124941961.clj:16).
+; class java.lang.String cannot be cast to class java.lang.Character (java.lang.String and java.lang.Character are in module java.base of loader 'bootstrap')
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:16).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:16).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+"1, 2, 3"
+clj꞉enter-print.prefix꞉> 
+; Syntax error compiling at (src/enter_print/prefix.clj:18:24).
+; No such namespace: string
+clj꞉enter-print.prefix꞉> 
+; Syntax error compiling at (src/enter_print/prefix.clj:17:14).
+; No such namespace: string
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:16).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:16).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/isPos (Numbers.java:123).
+; class clojure.core$first__5449 cannot be cast to class java.lang.Number (clojure.core$first__5449 is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉enter-print.prefix꞉> 
+\a
+clj꞉enter-print.prefix꞉> 
+"abc"
+clj꞉enter-print.prefix꞉> 
+"abc"
+clj꞉enter-print.prefix꞉> 
+\a
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+[\a]
+clj꞉enter-print.prefix꞉> 
+[nil]
+clj꞉enter-print.prefix꞉> 
+[]
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:16).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+; Execution error (IndexOutOfBoundsException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:16).
+; null
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+[1]
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/longest-prefix3 (form-init17036440641124941961.clj:14).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+[\a]
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix3
+clj꞉enter-print.prefix꞉> 
+[\a]
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char
+clj꞉enter-print.prefix꞉> 
+\a
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char-of-strings
+clj꞉enter-print.prefix꞉> 
+"abc"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char-of-strings
+clj꞉enter-print.prefix꞉> 
+"abc"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char-of-strings
+clj꞉enter-print.prefix꞉> 
+"abc"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char-of-strings
+clj꞉enter-print.prefix꞉> 
+"abc"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char-of-strings
+clj꞉enter-print.prefix꞉> 
+"ad"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/take-the-char-of-strings
+clj꞉enter-print.prefix꞉> 
+[\a \d]
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/prefix
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/prefix (form-init17036440641124941961.clj:32).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
