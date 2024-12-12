@@ -341,3 +341,78 @@ clj꞉enter-print.prefix꞉> 
 ; Execution error (ClassCastException) at enter-print.prefix/prefix (form-init17036440641124941961.clj:32).
 ; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
 clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/one-char (form-init17036440641124941961.clj:7).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/one-char (form-init17036440641124941961.clj:7).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/one-char (form-init17036440641124941961.clj:7).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+; Execution error (ClassCastException) at enter-print.prefix/one-char (form-init17036440641124941961.clj:7).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/one-char
+clj꞉enter-print.prefix꞉> 
+"a"
+clj꞉enter-print.prefix꞉> 
+""
+clj꞉enter-print.prefix꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Character
+clj꞉enter-print.prefix꞉> 
+(() ())
+clj꞉enter-print.prefix꞉> 
+((\b \c))
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix
+clj꞉enter-print.prefix꞉> 
+; Execution error (StackOverflowError) at enter-print.prefix/longest-prefix (form-init17036440641124941961.clj:13).
+; null
+clj꞉enter-print.prefix꞉> 
+((\b \c) (\e \f))
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/single-common-char
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix
+clj꞉enter-print.prefix꞉> 
+; Execution error (IllegalArgumentException) at enter-print.prefix/single-common-char (form-init17036440641124941961.clj:6).
+; Don't know how to create ISeq from: java.lang.Character
+clj꞉enter-print.prefix꞉> 
+#'enter-print.prefix/longest-prefix
+clj꞉enter-print.prefix꞉> 
+"ab"
+clj꞉enter-print.prefix꞉> 

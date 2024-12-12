@@ -1,41 +1,23 @@
 (ns enter-print.prefix
   (:require [clojure.test :refer :all]))
 
-(defn longest-prefix [s] "")
-
-(defn longest-prefix2
+(defn single-common-char
   [s]
-  (if (not (= (first (s 0)) (first (s 1))))
+  (let [v (first s)]
+    (if (some #(not= v %) (rest s))
+      ""
+      (str v))))
+
+(defn longest-prefix
+  [s]
+  (if (some #(= "" %) s)
     ""
-    (str (first (s 0)))))
+    (let [prefix (single-common-char (map first s))]
+      (if (= prefix "")
+        ""
+        (str prefix (longest-prefix (map rest s)))))))
 
-(defn longest-prefix3
-  [s]
-  (if (= (first (s 0)) (first (s 1)))
-    [(first (s 0))]
-    ""))
-
-(defn take-the-char
-  [s]
-  (first s))
-
-(defn take-the-char-of-strings
-  [s]
-  (vector (take-the-char (s 0))
-       (take-the-char (s 1))))
-
-(defn prefix
-  [s]
-  (loop [ith 0
-         t []]
-    ;t la cho chua common prefix
-    (if (not (= ((s 0) ith) ((s 1) ith)))
-      t
-      (recur (inc ith) (conj t [(s 0) ith])))))
-(prefix ["abc" "ajj"])
-
-
-
+(longest-prefix ["ab" "ab"])
 
 
 
