@@ -416,3 +416,451 @@ clj꞉enter-print.prefix꞉> 
 clj꞉enter-print.prefix꞉> 
 "ab"
 clj꞉enter-print.prefix꞉> 
+#'bbsortv2.core/foo
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+[3 4]
+clj꞉bbsortv2.core꞉> 
+[4 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[1 2 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(1 2 3 5 4 6)
+clj꞉bbsortv2.core꞉> 
+(1 2 3 5 4 6)
+clj꞉bbsortv2.core꞉> 
+(1 2 3 5 4 6)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+; Execution error (IndexOutOfBoundsException) at bbsortv2.core/swap (form-init17036440641124941961.clj:5).
+; null
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(1 2 3 5 4 6)
+clj꞉bbsortv2.core꞉> 
+(1 3 2 5 4 6)
+clj꞉bbsortv2.core꞉> 
+(1 3 2 5 4 6)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[[1 3] [2 5] [4 6]]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(1 3 2 5 4 6)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(1 3 2 5 4 6)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+[3 4]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(1 3 2 5 4 6)
+clj꞉bbsortv2.core꞉> 
+(1 2 3 5 4 6)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (IndexOutOfBoundsException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:14).
+; null
+clj꞉bbsortv2.core꞉> 
+[1]
+clj꞉bbsortv2.core꞉> 
+[2 1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[3 4]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+; Execution error (IndexOutOfBoundsException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:14).
+; null
+clj꞉bbsortv2.core꞉> 
+[2 1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(1 2)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[1 2]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 1 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 1 3]
+clj꞉bbsortv2.core꞉> 
+[]
+clj꞉bbsortv2.core꞉> 
+0
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+nil
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[]
+clj꞉bbsortv2.core꞉> 
+[1 2]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[1 2 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[1 2 1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/isPos (Numbers.java:123).
+; class clojure.core$first__5449 cannot be cast to class java.lang.Number (clojure.core$first__5449 is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉bbsortv2.core꞉> 
+()
+clj꞉bbsortv2.core꞉> 
+nil
+clj꞉bbsortv2.core꞉> 
+2
+clj꞉bbsortv2.core꞉> 
+[2]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/new-vec
+clj꞉bbsortv2.core꞉> 
+[2]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+(8 7)
+clj꞉bbsortv2.core꞉> 
+[8 7]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[1 1]
+clj꞉bbsortv2.core꞉> 
+[1 2]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[[2 1 1] 0 [1 1]]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (IndexOutOfBoundsException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:14).
+; null
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (IndexOutOfBoundsException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:14).
+; null
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 3 1]
+clj꞉bbsortv2.core꞉> 
+[2 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 3]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[1 4]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+[2 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+(2 3)
+clj꞉bbsortv2.core꞉> 
+(clojure.core/rest [1 2 3])
+clj꞉bbsortv2.core꞉> 
+[(2 3)]
+clj꞉bbsortv2.core꞉> 
+[2 3]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class clojure.lang.PersistentVector$ChunkedSeq cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.PersistentVector$ChunkedSeq and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+[1 2]
+clj꞉bbsortv2.core꞉> 
+[#function[clojure.core/first--5449] [3 2 1] [1 2]]
+clj꞉bbsortv2.core꞉> 
+3
+clj꞉bbsortv2.core꞉> 
+[3]
+clj꞉bbsortv2.core꞉> 
+[3 [1 2]]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+[2 3]
+clj꞉bbsortv2.core꞉> 
+9
+clj꞉bbsortv2.core꞉> 
+19
+clj꞉bbsortv2.core꞉> 
+; 19
+nil
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11210 (form-init17036440641124941961.clj:23).
+; Wrong number of args (2) passed to: bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/bubble
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/bubble-sort
+clj꞉bbsortv2.core꞉> 
+[\a \b \c \h \z]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11217 (form-init17036440641124941961.clj:8).
+; Wrong number of args (1) passed to: clojure.core/reduce
+clj꞉bbsortv2.core꞉> 
+[1 3 2]
+clj꞉bbsortv2.core꞉> 
+[2 3]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:13).
+; class java.lang.Long cannot be cast to class clojure.lang.IPersistentVector (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentVector is in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11227 (form-init17036440641124941961.clj:21).
+; Wrong number of args (1) passed to: bbsortv2.core/eval11227/move-max-item-to-ith--11228
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-max-item-to-ith
+clj꞉bbsortv2.core꞉> 
+[2 2 1 3 2 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/bbsort2
+clj꞉bbsortv2.core꞉> 
+; [8 7 6 5 4 3 2 1 9]
+; [7 6 5 4 3 2 1 8 9]
+; [6 5 4 3 2 1 7 8 9]
+; [5 4 3 2 1 6 7 8 9]
+; [4 3 2 1 5 6 7 8 9]
+; [3 2 1 4 5 6 7 8 9]
+; [2 1 3 4 5 6 7 8 9]
+; [1 2 3 4 5 6 7 8 9]
+[1 2 3 4 5 6 7 8 9]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/test
+; 
+; WARNING: test already refers to: #'clojure.core/test in namespace: bbsortv2.core, being replaced by: #'bbsortv2.core/test
+clj꞉bbsortv2.core꞉> 
+; 19
+19
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11240 (form-init17036440641124941961.clj:21).
+; Wrong number of args (2) passed to: bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/move-greatest-to-last
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/move-greatest-to-last (form-init17036440641124941961.clj:17).
+; Wrong number of args (2) passed to: bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[4 3 5 6 7]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+[4 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+[4 3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap
+clj꞉bbsortv2.core꞉> 
+[3 4]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[3 4 5 6 7]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[3]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+(4 2 1)
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[2]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11270 (form-init17036440641124941961.clj:15).
+; Wrong number of args (2) passed to: bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/fact
+clj꞉bbsortv2.core꞉> 
+1
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/fact (form-init17036440641124941961.clj:19).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉bbsortv2.core꞉> 
+2
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[3]
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11282 (form-init17036440641124941961.clj:16).
+; Wrong number of args (1) passed to: clojure.core/reduce
+clj꞉bbsortv2.core꞉> 
+[2]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+[2 3 5 1]
+clj꞉bbsortv2.core꞉> 
+[2 3 5 1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+; Execution error (IllegalArgumentException) at bbsortv2.core/eval11292 (form-init17036440641124941961.clj:16).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+8
+clj꞉bbsortv2.core꞉> 
+; Execution error (IllegalArgumentException) at bbsortv2.core/eval11297 (form-init17036440641124941961.clj:17).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉bbsortv2.core꞉> 
+[1 2 3]
+clj꞉bbsortv2.core꞉> 
+4
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/eval11303 (form-init17036440641124941961.clj:21).
+; class clojure.lang.Cons cannot be cast to class clojure.lang.IPersistentStack (clojure.lang.Cons and clojure.lang.IPersistentStack are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+; Execution error (ClassCastException) at bbsortv2.core/eval11305 (form-init17036440641124941961.clj:21).
+; class clojure.lang.Cons cannot be cast to class clojure.lang.IPersistentStack (clojure.lang.Cons and clojure.lang.IPersistentStack are in unnamed module of loader 'app')
+clj꞉bbsortv2.core꞉> 
+(2 3)
+clj꞉bbsortv2.core꞉> 
+(2 3)
+clj꞉bbsortv2.core꞉> 
+[[1]]
+clj꞉bbsortv2.core꞉> 
+[nil]
+clj꞉bbsortv2.core꞉> 
+[1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/swap-at
+clj꞉bbsortv2.core꞉> 
+; Execution error (IllegalArgumentException) at bbsortv2.core/swap-at (form-init17036440641124941961.clj:16).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉bbsortv2.core꞉> 
+3
+clj꞉bbsortv2.core꞉> 
+[1 2]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/single-pass
+clj꞉bbsortv2.core꞉> 
+; Execution error (ArityException) at bbsortv2.core/eval11325 (form-init17036440641124941961.clj:28).
+; Wrong number of args (1) passed to: bbsortv2.core/single-pass
+clj꞉bbsortv2.core꞉> 
+[2 1 1 3]
+clj꞉bbsortv2.core꞉> 
+[2 1 2 3]
+clj꞉bbsortv2.core꞉> 
+[2 1 1 3]
+clj꞉bbsortv2.core꞉> 
+[1]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/single-pass
+clj꞉bbsortv2.core꞉> 
+[3 2 4 4]
+clj꞉bbsortv2.core꞉> 
+#'bbsortv2.core/bb-sort
+clj꞉bbsortv2.core꞉> 
+[3 4 5 6 7 8 9]
+clj꞉bbsortv2.core꞉> 
+[1 2 3 9]
+clj꞉bbsortv2.core꞉> 
+[1 2]
+clj꞉bbsortv2.core꞉> 
+[]
+clj꞉bbsortv2.core꞉> 
+8
+clj꞉bbsortv2.core꞉> 
