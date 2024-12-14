@@ -864,3 +864,10 @@ clj꞉bbsortv2.core꞉> 
 clj꞉bbsortv2.core꞉> 
 8
 clj꞉bbsortv2.core꞉> 
+; Syntax error compiling at (/Users/taiphongnguyen/bb/src/bb/core.clj:13:21).
+; Unable to resolve symbol: single-pass in this context
+clj꞉bb.core꞉> 
+#'bb.core/single-pass
+clj꞉bb.core꞉> 
+#'bb.core/bb-sort
+clj꞉bb.core꞉> 
